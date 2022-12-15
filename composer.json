@@ -1,0 +1,24 @@
+{
+    "name": "turing/php8",
+    "description": "A Micro Framework of MVC model",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "system\\": "system/"
+        },
+        "files": [
+            "system/conf.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Gabriel Chaves Martins"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "3.4.3"
+    }
+}
